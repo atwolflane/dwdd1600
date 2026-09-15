@@ -1,3 +1,3 @@
 # dwdd1600
-file names active:
+file names:
 03follow-along
