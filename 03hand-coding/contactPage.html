@@ -6,34 +6,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The site for all your Grave digger needs">
     <meta name="author" content="at wolflane">
+    <link rel="stylesheet" href="contactPage.css">
+    <script src="index.js" defer></script>
     <title>The Grave/Digger LoreBook</title>
 </head>
 
 <body>
     <header>
-        <span class="MainTitle">Contact Support</span>
+        <div class="mainContainer">
+            <div class="quote-box">
+                <p id="random-quote">Loading quote...</p>
+            </div>
+            <span class="mainTitle">Contact Support</span>
+            <div class="Logo">
+                <a href="index.html">
+                    <img src="GdLogo.jpg" alt="Grave/Digger logo">
+                </a>
+            </div>
+            <div class="Graphic">
+                <img src="GdGraphic.jpg" alt="Grave/Digger Graphic">
+            </div>
+        </div>
     </header>
     <nav>
-        <ul class="ButtonsNav">
-            <li><a class="HomeBtn" href="index.html">Home</a></li>
+        <ul class="Buttons">
+            <li><a href="#" class="WeaponLoreBtn">Weapon Lore</a></li>
+            <li><a href="#" class="StoryBtn">Story Line</a></li>
+            <li><a href="#" class="WeaponStatsBtn">Weapon Stats</a></li>
+            <li><a href="#" class="ClassStatsBtn">Classes and Stats</a></li>
+            <li><a href="#" class="WeaponSkinsBtn">Weapon Skins</a></li>
+            <li><a href="#" class="CompBtn">Compounds and Gamemodes</a></li>
+            <!--The hope easter egg has to much information behind it that I feel it should have it's own page.-->
+            <li><a href="HopeEgg.html" class="HopeBtn" target="_blank">Hope Easter Egg</a></li>
+            <li><a href="#" class="RnMiscBtn">Ranks and Miscellaneous</a></li>
+            <li><a href="contactPage.html" class="CSBtn">Contact Support</a></li>
         </ul>
     </nav>
     <main>
         <h1>Please fill out the form below</h1>
-        <form action="https://formsubmit.co/d822b8164a64e4aeacc757b6b5ca85eb" method="POST">
+        <form id="formCS" action="https://formsubmit.co/d822b8164a64e4aeacc757b6b5ca85eb" method="POST">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required placeholder="Your Name">
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Your Email">
+            <input type="email" id="email" name="email" placeholder="Your Email">
 
             <label for="message">Message:</label>
             <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            <p class="text5">email is only rquired if you want a reply back</p>
 
             <button type="submit">Send</button>
         </form>
+        <script>
+            document.getElementById('formCS').addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                const emailInput = document.getElementById('email');
+                if (emailInput.value.trim() === "") {
+                    emailInput.value = "Not-Given@example.com";
+                }
+                this.submit();
+            });
+        </script>
     </main>
     <footer>
+        <p>&copy; 2026 &bull; at_wolflane</p>
     </footer>
 </body>
 

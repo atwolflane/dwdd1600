@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Amatic SC", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+/* Logo and graphic and title alignment */
+.quote-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quote-box p {
+    position: absolute;
+    top: 30px;
+    color: #F7F9EB;
+    text-align: center;
+    margin: 0;
+    width: 90%;
+}
+
+.Logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding: 0 0 15px 0;
+    box-sizing: border-box;
+}
+
+.Logo img {
+    width: auto;
+    object-fit: contain;
+    transform: translateY(-10px) translateX(6px);
+}
+
+.Graphic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Graphic img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    color: #F7F9EB;
+}
+
+/* end Logo and graphic and title alignment */
+
+/* color theme */
+body.royal-nation nav {
+    background-color: #441D62;
+}
+
+body.royal-nation .Buttons a:hover {
+    background-color: #B38518;
+}
+
+body.golden-empire nav {
+    background-color: #B38518;
+}
+
+body.golden-empire .Buttons a:hover {
+    background-color: #58277d;
+}
+/*color theme end*/
+
+/* Nav Buttons Start */
+nav {
+    background-color: #441D62;
+    padding: 0;
+    width: 100%;
+}
+
+.Buttons {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+}
+
+.Buttons li {
+    flex: 1;
+    text-align: center;
+}
+
+.Buttons a:hover {
+    background-color: #58277d;
+}
+
+.WeaponLoreBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.StoryBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.WeaponStatsBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.ClassStatsBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.WeaponSkinsBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.CompBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.HopeBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.RnMiscBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+    text-decoration: none;
+}
+
+.CSBtn {
+    display: block;
+    color: #F7F9EB;
+    text-align: center;
+    padding: 30px 20px;
+}
+/* Nav buttons end */
