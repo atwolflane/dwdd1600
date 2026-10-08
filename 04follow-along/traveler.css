@@ -2,3 +2,122 @@ body {
     font-family: "Oxygen", serif;
     margin: 0;
 }
+
+/* Header stuff here */
+header {
+    background-color: black;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: blanchedalmond;
+    font-weight: 700;
+}
+/* nav stuff here */
+nav {
+    background-color: blueviolet;
+}
+nav ul {
+    margin: 0;
+    padding: 0 10px;
+    list-style-type: none;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: .83rem 1rem;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: blanchedalmond;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: blanchedalmond;
+    color: black;
+}
+
+nav li a:hover {
+    color: blue;
+}
+
+/* main stuff here */
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color:black;
+}
+
+main h2 {
+    color: blue;
+    margin: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+main ol {
+    padding: .5rem 30px;
+    background-color: blanchedalmond;
+}
+main dl dt {
+    color:blueviolet;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: blanchedalmond;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+main ul {
+    list-style-type: none;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: black;
+}
+main em {
+    font-weight: 300;
+    color: black;
+}
+main address {
+    font-style: normal;
+    background-color: blue;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid blanchedalmond;
+    width: 200px;
+}
+
+main a {
+    color: red;
+}
+
+main a:hover {
+    color: rgb(180, 4, 18)
+}
+
+/* footer stuff here */
+footer {
+    background-color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: .8rem;
+    color: black;
+}
+footer p {
+    margin: 0;
+    letter-spacing: 3px;
+}
