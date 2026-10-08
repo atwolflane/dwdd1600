@@ -61,7 +61,7 @@ main p {
 }
 main ol {
     padding: .5rem 30px;
-    background-color: blanchedalmond;
+    background-color: blue;
 }
 main dl dt {
     color:blueviolet;
@@ -70,7 +70,7 @@ main dl dt {
 }
 
 main dl dd {
-    color: blanchedalmond;
+    color: blue;
     font-size: .9rem;
     margin-left: 20px;
 }
