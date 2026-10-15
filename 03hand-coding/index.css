@@ -1,14 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     font-family: "Amatic SC", sans-serif;
     font-weight: 1000;
     font-style: normal;
 }
 
 /* Logo and graphic and title alignment */
+.mainTitle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100vw;
+    font-weight: 1000;
+    font-size: 1.5rem;
+    color: #F7F9EB;
+}
 .quote-box {
     position: relative;
     display: flex;
@@ -23,6 +37,22 @@ body {
     color: #F7F9EB;
     text-align: center;
     margin: 0;
+}
+
+.Graphic {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.Graphic img {
+    width: 100vw;
+    height: 12.5rem;
+    object-fit: cover;
 }
 
 .Logo {
@@ -40,43 +70,11 @@ body {
     transform: translateY(-10px) translateX(6px);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
    .Logo {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    height: 100%;
-    padding: 0 0 15px 0;
-    box-sizing: border-box;
+
    }
 }
-
-.mainTitle {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    width: 100vw;
-    font-weight: 1000;
-    font-size: 1.5rem;
-    color: #F7F9EB;
-}
-
-.Graphic {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    z-index: -1;
-}
-
-.Graphic img {
-    width: 100vw;
-    height: 200px;
-    object-fit: cover;
-}
-
 /* end Logo and graphic and title alignment */
 
 /* color theme */
@@ -105,10 +103,10 @@ nav {
     width: 100vw;
 }
 
-@media (max-width: 630px) {
-   nav {
-      display: none;
-   }
+@media (max-width: 760px) {
+    nav {
+        display: none;
+    }
 }
 
 .Buttons {
