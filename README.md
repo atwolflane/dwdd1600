@@ -1,7 +1,7 @@
 # dwdd1600
 file names:
-03follow-along
-03hand-coding
-04follow-along
-04intro-css
+03follow-along <br>
+03hand-coding <br>
+04follow-along <br>
+04intro-css <br>
 05follow-along (unfinished)
