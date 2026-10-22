@@ -113,6 +113,20 @@ figure.Kooking figcaption {
     text-align: center;
     font-size: .75rem;
 }
+/* gallery stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+}
 
 /* footer stuff here */
 footer {
