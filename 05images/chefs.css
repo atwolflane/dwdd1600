@@ -56,6 +56,21 @@ main h1 {
     margin: .5rem 0 .8rem 0;
 }
 
+/* gallery stuff here */
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 10px;
+}
+div.gallery figure {
+    margin: 0;
+}
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #b64e11;
+}
+
 
 /* footer stuff here */
 footer {
