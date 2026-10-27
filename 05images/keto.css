@@ -113,6 +113,19 @@ figure.Kooking figcaption {
     text-align: center;
     font-size: .75rem;
 }
+figure.chefCooking {
+    margin: 10px 0 0 10px;
+    width: 25%;
+    float: right;
+}
+figure.chefCooking img {
+    width: 100%;
+    height: auto;
+}
+figure.chefCooking figcaption {
+    text-align: center;
+    font-size: .50rem;
+}
 /* gallery stuff here */
 div.gallery {
     display: flex;
