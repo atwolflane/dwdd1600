@@ -93,9 +93,8 @@ main strong {
     color: #b64e11;
 }
 
-main h1 a {
-    text-decoration: none;
-    color:#b64e11
+main a {
+    color: #b44f12;
 }
 main a:hover {
     background-color:#eee;
