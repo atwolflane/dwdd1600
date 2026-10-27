@@ -98,6 +98,7 @@ div.gallery figcaption {
 
 /* footer stuff here */
 footer {
+    clear: both;
     border-top: solid #ccc 2px;
     text-align: center;
     color: #024873;
