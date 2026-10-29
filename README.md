@@ -4,4 +4,5 @@ file names:
 03hand-coding <br>
 04follow-along <br>
 04intro-css <br>
-05follow-along (unfinished)
+05follow-along <br>
+05images

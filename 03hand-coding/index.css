@@ -1,15 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-
-html {
-    overflow-x: hidden;
-}
-
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     font-family: "Amatic SC", sans-serif;
-    font-weight: 1000;
+    font-weight: 700;
     font-style: normal;
 }
 
@@ -19,7 +13,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     width: 100vw;
-    font-weight: 1000;
+    font-weight: 700;
     font-size: 1.5rem;
     color: #F7F9EB;
 }
