@@ -7,9 +7,10 @@ body {
 
 /* header stuff here */
 header {
-    font-family: 'Parisienne', cursive; 
+    font-family: 'Parisienne', cursive;
     padding: 1rem 2vw;
 }
+
 header span {
     margin: 0;
     color: #b64e11;
@@ -20,12 +21,14 @@ header span {
 nav {
     background-color: #376259;
 }
+
 nav ul {
     margin: 0;
     padding: 0 2vw;
     list-style-type: none;
     display: flex;
 }
+
 nav a {
     display: block;
     padding: .83rem 1rem;
@@ -39,6 +42,7 @@ nav .active a {
     background-color: #5d3a2a;
     color: #ffffff;
 }
+
 nav a:hover {
     background-color: #222;
 }
@@ -57,30 +61,40 @@ main h1 {
 }
 
 /* gallery stuff here */
+
+/* can't use flexbox display because images would be out of line (5 on top with 3 on bottom) and grid display was the fix */
 div.gallery {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
     gap: 20px 10px;
 }
+
 div.gallery figure {
     margin: 0;
 }
+
 div.gallery figcaption {
     text-align: center;
     font-size: .8rem;
     color: #b64e11;
 }
 
+div.gallery figure.p {
+    float: right;
+    display: flex;
+}
+
 
 /* footer stuff here */
 footer {
-    clear:both;
+    clear: both;
     border-top: solid #ccc 2px;
     text-align: center;
     color: #024873;
     font-size: .7rem;
     padding: 1rem 0;
 }
+
 footer a {
     color: #024873;
 }
