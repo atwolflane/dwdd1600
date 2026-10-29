@@ -17,6 +17,7 @@ body {
     font-size: 1.5rem;
     color: #F7F9EB;
 }
+
 .quote-box {
     position: relative;
     display: flex;
@@ -65,10 +66,8 @@ body {
 }
 
 @media (max-width: 760px) {
-   .Logo {
-
-   }
 }
+
 /* end Logo and graphic and title alignment */
 
 /* color theme */
