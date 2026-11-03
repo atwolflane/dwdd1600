@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Get your next meal delivered by drone.">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;500&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="delivery.css">
+
+    <meta charset="UTF-8">
+    <title>Drone Delivery Services LLC.</title>
+</head>
+
+<body>
+    <!-- start the page header -->
+    <header>
+        <span>Drone Delivery </span>
+    </header>
+
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Us</a></li>
+            <li class="active"><a href="delivery.html">Request a Delivery</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- start the page main -->
+    <main>
+        <h1>Request a delivery.</h1>
+        <form method="get" class="myForm" action="thanks.html">
+
+            <fieldset>
+                <legend>Customer Information</legend>
+
+                <label>First Name*<input type="text" name="fname" required></label>
+
+                <label>Last Name*<input type="text" name="lname" required></label>
+
+                <label>Cell number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Method</legend>
+
+                <label><input type="radio" name="method" value="typeDel">Van (12hrs*)</label>
+
+                <label><input type="radio" name="method" value="typeDel">Air Drop (3hrs**)</label>
+
+                <label><input type="radio" name="method" value="typeDel">Heat Seaking cruise Missile (30sec***)</label>
+                <p> *subject to 3$ delivery fee. <br> **Subject to 250$ delivery fee any damage to package is not
+                    covered. <br> ***Subject to 2000$ delivery fee and potential bodily harm which we are not
+                    responsible for.</p>
+            </fieldset>
+
+            <fieldset>
+                <legend>Delivery Options</legend>
+                <label><input type="checkbox" name="roof" value="chosen">Roof</label>
+                <label><input type="checkbox" name="underground" value="chosen">In The Tunnels</label>
+                <label><input type="checkbox" name="insideZed" value="chosen">Inside The Dead Zombie Outside</label>
+                <label><input type="checkbox" name="itIsTime" value="chosen">Next To Mariah Carey</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferred Delivery Time</legend>
+                <select name="time">
+                    <option value="none">Please Select</option>
+                    <option value="morning">Between 7:00am and 11:00am</option>
+                    <option value="noon">Between 11:00am and 2:00pm</option>
+                    <option value="afternoon">Between 2:00pm and 5:00pm</option>
+                    <option value="evening">Between 5:00pm and 8:00pm</option>
+                </select>
+            </fieldset>
+
+            <label>Additional Instructions
+                <textarea name="Comments"></textarea>
+            </label>
+
+            <input type="submit" value="Send Delivery Request">
+        </form>
+    </main>
+
+    <!-- start the page footer -->
+    <footer>
+        <p>&copy;202X &bull; Drone Delivery Services &bull; <a href="mailto:zen@gmail.com">Email Us</a> </p>
+    </footer>
+</body>
+
+</html>
