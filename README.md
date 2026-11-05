@@ -6,4 +6,4 @@ file names:
 04intro-css <br>
 05follow-along <br>
 05images <br>
-06follow-along (unfinished)
+06follow-along

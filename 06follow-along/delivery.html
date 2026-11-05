@@ -38,9 +38,9 @@
             <fieldset>
                 <legend>Customer Information</legend>
 
-                <label>First Name*<input type="text" name="fname" required></label>
+                <label>First Name*<input type="text" name="fname" required placeholder="John"></label>
 
-                <label>Last Name*<input type="text" name="lname" required></label>
+                <label>Last Name*<input type="text" name="lname" required placeholder="Doe"></label>
 
                 <label>Cell number*<input type="tel" name="phone" required placeholder="123-456-7890"></label>
             </fieldset>
@@ -53,7 +53,7 @@
                 <label><input type="radio" name="method" value="typeDel">Air Drop (3hrs**)</label>
 
                 <label><input type="radio" name="method" value="typeDel">Heat Seaking cruise Missile (30sec***)</label>
-                <p> *subject to 3$ delivery fee. <br> **Subject to 250$ delivery fee any damage to package is not
+                <p class="po"> *subject to 3$ delivery fee. <br> **Subject to 250$ delivery fee any damage to package is not
                     covered. <br> ***Subject to 2000$ delivery fee and potential bodily harm which we are not
                     responsible for.</p>
             </fieldset>
@@ -81,7 +81,7 @@
                 <textarea name="Comments"></textarea>
             </label>
 
-            <input type="submit" value="Send Delivery Request">
+            <input class="delReq" type="submit" value="Send Delivery Request">
         </form>
     </main>
 
