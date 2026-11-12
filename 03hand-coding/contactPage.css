@@ -206,15 +206,19 @@ input {
 fieldset {
     border: .063rem solid #000;
     border-radius: .5rem;
-    width: 1vw;
 }
 
 ::placeholder {
     font-family: "Amatic SC", sans-serif;
 }
-
+h1 {
+    text-align: center;
+}
 
 form {
     display: grid;
     place-items: center;
+}
+footer {
+    text-align: center;
 }
