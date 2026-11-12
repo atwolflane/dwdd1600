@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="The site for all your Grave digger needs">
     <meta name="author" content="at wolflane">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="contactPage.css">
     <script src="index.js" defer></script>
     <title>The Grave/Digger LoreBook</title>
@@ -45,18 +48,20 @@
     <main>
         <h1>Please fill out the form below</h1>
         <form id="formCS" action="https://formsubmit.co/d822b8164a64e4aeacc757b6b5ca85eb" method="POST">
-            <label for="name">Name*:</label>
-            <input type="text" id="name" name="name" required placeholder="Your Name">
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Your Email">
-
-            <label for="message">Message*:</label>
-            <textarea id="message" name="message" required placeholder="Your Message"></textarea>
-            <p class="text5">email is only required if you want a reply back</p>
+            <fieldset class="nameFS">
+                <legend for="name">Name*</legend>
+                <input type="text" id="name" name="name" required placeholder="Your Name">
+            </fieldset>
+            <fieldset class="emailFS">
+                <legend for="email">Email*</legend>
+                <input type="email" id="email" name="email" required placeholder="Your Email">
+            </fieldset>
+            <fieldset class="messageFS">
+                <legend for="message">Message*</legend>
+                <textarea id="message" name="message" required placeholder="Your Message"></textarea>
+            </fieldset>
             <p class="text5a">* required</p>
-
-            <button type="submit">Send</button>
+            <button class="submitBtn" type="submit">Send Message</button>
         </form>
         <script>
             document.getElementById('formCS').addEventListener('submit', function (event) {
